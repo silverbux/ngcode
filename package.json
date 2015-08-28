@@ -1,6 +1,6 @@
 {
-  "name": "npm-ngcode",
-  "version": "0.0.1",
+  "name": "ngcode",
+  "version": "0.0.3",
   "description": "AngularJS code generator, implementing john papa styleguide.",
   "homepage": "https://github.com/silverbux/ngcode",
   "keywords": [
@@ -28,7 +28,11 @@
     "chai": "~1.8.1",
     "mocha": "~1.17.0"
   },
+  "bin": {
+    "ngcode": "bin/ngcode.js"
+  },
   "main": "lib/main.js",
+  "preferGlobal": "true",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
