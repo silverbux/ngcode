@@ -1,0 +1,65 @@
+/**
+ * <<title>> Module
+ * @namespace deploymentDetails Directives
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('app')
+    .directive('<<title>>', <<title>>)
+
+  // @ngInject
+  <<title>>.$inject = [];
+
+  /**
+   * @namespace <<title>>
+   * @desc <<title>> Directive
+   * @memberOf Directives
+   */
+  function <<title>> () {
+    var scope = {ngModel: '=ngModel'};
+
+    var directive = {
+      scope: scope,
+      link: <<title>>Link,
+      restrict: 'E',
+      replace: true,
+      transclude: true,
+      templateUrl: '<<title>>.html',
+      controllerAs: 'vm',
+      bindToController: true,
+      controller: <<title>>Controller
+    };
+
+    return directive;
+
+    // @ngInject
+    <<title>>Controller.$inject = ['$stateParams'];
+
+    /**
+     * @namespace <<title>>Controller
+     * @desc <<title>> Controller
+     * @memberOf Directives.Controller
+     */
+    function <<title>>Controller($stateParams) {
+      var vm        = this;
+
+      // initialize
+      activate()
+
+      function activate() {
+
+      }
+    }
+
+    /**
+     * @namespace <<title>>Link
+     * @desc <<title>> Link
+     * @memberOf Directives.Link
+     */
+    function <<title>>Link(scope, el, attr) {
+
+    }
+  }
+})();

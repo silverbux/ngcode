@@ -1,0 +1,19 @@
+(function () {
+  'use strict';
+
+  angular
+      .module('app')
+      .controller('<<title>>', <<title>>);
+
+  function <<title>>() {
+    var vm = this;
+    vm.title = '';
+
+    activate();
+
+    function activate() {
+
+    }
+  }
+
+})();
