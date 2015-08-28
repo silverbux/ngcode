@@ -1,5 +1,5 @@
 {
-  "name": "npm-ngcode",
+  "name": "ngcode",
   "version": "0.0.1",
   "description": "AngularJS code generator, implementing john papa styleguide.",
   "homepage": "https://github.com/silverbux/ngcode",
