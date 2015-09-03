@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "cli-color": "~0.2.3",
-    "commander": "^2.8.1",
+    "commander": "~2.8.0",
     "lodash": "~3.10.1"
   },
   "devDependencies": {
@@ -36,7 +36,7 @@
   "main": "lib/main.js",
   "preferGlobal": "true",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha"
   },
   "engines": {
     "node": ">=0.4.0"
