@@ -1,6 +1,6 @@
 {
   "name": "ngcode",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "AngularJS code generator, implementing john papa styleguide.",
   "homepage": "https://github.com/silverbux/ngcode",
   "keywords": [
@@ -16,7 +16,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/silverbux/ngcode.git"
+    "url": "https://github.com/silverbux/ngcode.git"
   },
   "bugs": {
     "url": "https://github.com/silverbux/ngcode/issues"
