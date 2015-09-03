@@ -1,6 +1,6 @@
 {
   "name": "ngcode",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "AngularJS code generator, implementing john papa styleguide.",
   "homepage": "https://github.com/silverbux/ngcode",
   "keywords": [
@@ -9,26 +9,32 @@
     "npm-angular",
     "npm-angularjs"
   ],
-  "author": "Alex Quiambao <alexquiambao@gmail.com>",
-  "contributors": [
-  ],
+  "author": {
+    "name": "Alex Quiambao",
+    "email": "alexquiambao@gmail.com"
+  },
+  "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/silverbux/ngcode"
+    "url": "https://github.com/silverbux/ngcode.git"
   },
   "bugs": {
-    "mail": "alexquiambao@gmail",
     "url": "https://github.com/silverbux/ngcode/issues"
   },
   "dependencies": {
-    "lodash": "~3.10.1",
-    "cli-color": "~0.2.3"
+    "cli-color": "~0.2.3",
+    "commander": "^2.8.1",
+    "lodash": "~3.10.1"
   },
   "devDependencies": {
     "chai": "~1.8.1",
     "mocha": "~1.17.0"
   },
+  "bin": {
+    "ngcode": "bin/ngcode.js"
+  },
   "main": "lib/main.js",
+  "preferGlobal": "true",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },

@@ -1,52 +1,50 @@
 /**
- * <<title>> Module
- * @namespace deploymentDetails Directives
+ * <%= title.cap %> Directive
+ * @namespace <%= title.cap %>
+ * @memberOf Directives
  */
 (function () {
   'use strict';
 
   angular
     .module('app')
-    .directive('<<title>>', <<title>>)
+    .directive('<%= title.camel %>', <%= title.camel %>)
 
   // @ngInject
-  <<title>>.$inject = [];
+  <%= title.camel %>.$inject = [];
 
   /**
-   * @namespace <<title>>
-   * @desc <<title>> Directive
-   * @memberOf Directives
+   * @namespace <%= title.camel %>
+   * @desc <%= title.camel %> Directive
+   * @memberOf <%= title.camel %>.Controller
    */
-  function <<title>> () {
-    var scope = {ngModel: '=ngModel'};
-
+  function <%= title.camel %> () {
     var directive = {
-      scope: scope,
-      link: <<title>>Link,
-      restrict: 'E',
-      replace: true,
-      transclude: true,
-      templateUrl: '<<title>>.html',
+      scope: {ngModel: '=ngModel'},
+      link: <%= title.camel %>Link,
+      restrict: 'EA',
+      templateUrl: '<%= title.low %>.html',
       controllerAs: 'vm',
       bindToController: true,
-      controller: <<title>>Controller
+      controller: <%= title.cap %>Controller
     };
 
     return directive;
 
-    // @ngInject
-    <<title>>Controller.$inject = ['$stateParams'];
+    // Controller @ngInject
+    <%= title.cap %>Controller.$inject = [];
 
     /**
-     * @namespace <<title>>Controller
-     * @desc <<title>> Controller
+     * @namespace <%= title.cap %>Controller
+     * @desc <%= title.cap %> Controller
+     * @param {Object[]} Dependencies
      * @memberOf Directives.Controller
      */
-    function <<title>>Controller($stateParams) {
-      var vm        = this;
+    function <%= title.cap %>Controller() {
+      var vm = this;
 
       // initialize
-      activate()
+      activate();
 
       function activate() {
 
@@ -54,11 +52,11 @@
     }
 
     /**
-     * @namespace <<title>>Link
-     * @desc <<title>> Link
+     * @namespace <%= title.camel %>Link
+     * @desc <%= title.camel %> Link
      * @memberOf Directives.Link
      */
-    function <<title>>Link(scope, el, attr) {
+    function <%= title.camel %>Link(scope, el, attr) {
 
     }
   }

@@ -1,6 +1,6 @@
 /**
  * <%= title.low %> Service
- * @namespace <%= title.low %>
+ * @namespace <%= title.low %>service
  * @memberOf Services
  */
 (function () {
@@ -8,15 +8,15 @@
 
   angular
     .module('app')
-    .factory('<%= title.low %>', <%= title.low %>);
+    .factory('<%= title.low %>service', <%= title.low %>service);
 
   <%= title.low %>.$inject = [];
 
   /**
-   * @namespace <%= title.low %>
+   * @namespace <%= title.low %>service
    * @memberOf <%= title.low %>
    */
-  function <%= title.low %>() {
+  function <%= title.low %>service() {
     var service = {
       sampleOne: sampleOne,
       sampleTwo: sampleTwo

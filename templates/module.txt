@@ -1,5 +1,8 @@
 (function() {
-    'use strict';
+  'use strict';
 
-    angular.module('app.<<title>>', []);
+  angular
+    .module('<%= title.low %>', [
+      'dependencies'
+    ]);
 })();
