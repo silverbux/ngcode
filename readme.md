@@ -1,5 +1,3 @@
-# IMPORTANT: STILL UNDER DEVELOPMENT
-
 # NGCODE [![Build Status](https://secure.travis-ci.org/silverbux/ngcode.png)](http://travis-ci.org/silverbux/ngcode)
 
 > An AngularJS code generator, implementing john papa's [angular-styleguide](https://github.com/johnpapa/angular-styleguide).
@@ -11,27 +9,72 @@ Install this globally and you'll have access to the ngcode command anywhere on y
 npm install -g ngcode
 ```
 
+### Example Usage:
 
-#### Example Usage
-
-##### Generate Directive
+#### Directive
 ```
-ngcode directive:mydirective
+ngcode directive:helloworld
 ```
-
-##### Generate Controller
+*Shortcut*
 ```
-ngcode controller:mycontroller
+ngcode dir:helloworld
 ```
 
-##### Generate Factory
+----------
+
+#### Controller
 ```
-ngcode factory:myfactory
+ngcode controller:helloworld
+```
+*Shortcut*
+```
+ngcode con:helloworld
 ```
 
-##### Generate Module
+----------
+
+#### Service
+```
+ngcode service:helloworld
+```
+*Shortcut*
+```
+ngcode ser:helloworld
+```
+
+----------
+
+#### Factory
+```
+ngcode factory:helloworld
+```
+*Shortcut*
+```
+ngcode fac:helloworld
+```
+
+----------
+
+#### Filter
+```
+ngcode filter:helloworld
+```
+*Shortcut*
+```
+ngcode fil:helloworld
+```
+
+
+----------
+
+
+#### Module
 ```
 ngcode module:mymodule
+```
+*Shortcut*
+```
+ngcode mod:helloworld
 ```
 
 

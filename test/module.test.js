@@ -8,11 +8,9 @@ var path = require( 'path' )
   , expect = require( 'chai' ).expect;
 
 
-describe('NG CODE', function( done ) {
-
+describe('NGCODE', function( done ) {
     it('should load as a module', function(done) {
         expect( NgCode ).to.exist;
         done();
     });
-
 });

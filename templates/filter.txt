@@ -1,0 +1,26 @@
+/**
+ * <%= title.low %> Filter
+ * @namespace <%= title.low %>Filter
+ * @memberOf Filters
+ */
+(function () {
+  'use strict';
+
+  angular
+    .module('app')
+    .filter('<%= title.low %>', <%= title.low %>);
+
+  /**
+   * @namespace <%= title.low %>Filter
+   * @memberOf <%= title.low %>Filter
+   */
+  function <%= title.low %>() {
+    return <%= title.low %>Filter
+
+    function <%= title.low %>Filter(params) {
+        return params;
+    }
+  }
+})();
+
+

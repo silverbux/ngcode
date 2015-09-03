@@ -1,19 +1,34 @@
+/**
+ * <%= title.cap %> Controller
+ * @namespace <%= title.cap %>
+ * @memberOf Controllers
+ */
 (function () {
   'use strict';
 
   angular
-      .module('app')
-      .controller('<<title>>', <<title>>);
+    .module('app')
+    .controller('<%= title.cap %>Ctrl', <%= title.cap %>Ctrl);
 
-  function <<title>>() {
+  <%= title.cap %>Ctrl.$inject = [];
+
+  /**
+   * @namespace <%= title.cap %>Ctrl
+   * @desc <%= title.cap %> Controller
+   * @param {Object[]} Dependencies
+   * @memberOf <%= title.cap %>.Controller
+   */
+  function <%= title.cap %>Ctrl() {
     var vm = this;
-    vm.title = '';
 
     activate();
 
     function activate() {
 
     }
-  }
 
+    function function() {
+
+    }
+  }
 })();
