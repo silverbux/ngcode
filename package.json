@@ -1,6 +1,6 @@
 {
   "name": "ngcode",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "AngularJS code generator, implementing john papa styleguide.",
   "homepage": "https://github.com/silverbux/ngcode",
   "keywords": [
@@ -24,6 +24,7 @@
   "dependencies": {
     "cli-color": "~0.2.3",
     "commander": "~2.8.0",
+    "fs": "0.0.2",
     "lodash": "~3.10.1"
   },
   "devDependencies": {
