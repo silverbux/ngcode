@@ -1,4 +1,4 @@
-# NGCODE [![Build Status](https://secure.travis-ci.org/silverbux/ngcode.png)](http://travis-ci.org/silverbux/ngcode)
+# NGCODE  [![Build Status](https://secure.travis-ci.org/silverbux/ngcode.png)](http://travis-ci.org/silverbux/ngcode) [![npm version](https://img.shields.io/npm/v/ngcode.svg)](https://www.npmjs.com/package/ngcode)
 
 > An AngularJS code generator, implementing john papa's [angular-styleguide](https://github.com/johnpapa/angular-styleguide).
 
