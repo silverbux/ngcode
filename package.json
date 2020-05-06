@@ -24,7 +24,6 @@
   "dependencies": {
     "cli-color": "~0.2.3",
     "commander": "~2.8.0",
-    "fs": "0.0.2",
     "lodash": "~3.10.1"
   },
   "devDependencies": {
